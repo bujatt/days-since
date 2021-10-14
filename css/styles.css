@@ -5,7 +5,7 @@
       }
 
       .container { margin: 50px auto 40px auto; width: 600px; text-align: center; }
-      .main {margin: 30px; padding: 100px; border: 20px solid white; }
+      .main {margin: 30px; width: auto; height: auto; padding: 100px; border: 20px solid white; }
 
 
       a { color: #4183c4; text-decoration: none; }
