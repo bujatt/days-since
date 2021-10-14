@@ -18,13 +18,14 @@
             flex-direction: column;
             justify-content: space-evenly;
             align-items: flex-start;
+            height: 100%
       }
 
       .days {
             color: black;
             background-color: white;
-            font-size: calc(min(10vh, 14vw));
-            line-height: calc(min(10vh, 14vw));
+            font-size: calc(min(10vh, 12vw));
+            line-height: calc(min(10vh, 12vw));
             font-weight: 700;
             padding: 2vw;
             padding: 2vw;
@@ -34,8 +35,8 @@
 
       .longtext {
             color: white;
-            font-size: 8vh;
-            line-height: 9vh;
+            font-size: calc(min(8vh, 7vw));
+            line-height: calc(min(8vh, 7vw) * 1.1);
             font-weight: 600;
             text-transform: uppercase;
             }
