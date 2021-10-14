@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Basic HTML5 Template</title>
+  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <meta name="author" content="SitePoint">
+
+  <meta property="og:title" content="A Basic HTML5 Template">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+  <meta property="og:description" content="A simple HTML5 Template for new projects.">
+  <meta property="og:image" content="image.png">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="css/styles.css">
+<script nonce>
+const date1 = new Date('7/13/2010');
+const date2 = new Date('12/15/2010');
+const diffTime = Math.abs(date2 - date1);
+const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+console.log(diffTime + " milliseconds");
+console.log(diffDays + " days");
+
+    //$("#days").text(days);
+    $("#days").text(days);
+    $("#hours").text(hours);
+    $("#minutes").text(minutes);
+    $("#seconds").text(seconds);
+  }
+}
+
+</script>
+</head>
+
+<body>
+  <!-- your content here... -->
+  <div class="container">
+  <div class="main">
+    <div class="days">
+      632 napja
+    </div>
+    <div class="longtext">
+      Nem szerepelt <br> megválasztott ellenzéki <br>politikus élő adásban <br>a magyar közmédiában.
+    </div>
+  </div>
+  <div id="timer">
+  <span id="days"></span>days
+  <span id="hours"></span>hours
+  <span id="minutes"></span>minutes
+  <span id="seconds"></span>seconds
+</div>
+  </div>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
