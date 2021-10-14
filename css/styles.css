@@ -23,9 +23,9 @@
       .days {
             color: black;
             background-color: white;
-            font-size: 10vh;
-            line-height: 10vh;
-            font-weight: 900;
+            font-size: calc(min(10vh, 14vw));
+            line-height: calc(min(10vh, 14vw));
+            font-weight: 700;
             padding: 2vw;
             padding: 2vw;
             margin-bottom: 2vw;
