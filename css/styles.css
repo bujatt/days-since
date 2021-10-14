@@ -23,10 +23,11 @@
       .days {
             color: black;
             background-color: white;
-            font-size: 12vh;
+            font-size: 10vh;
+            line-height: 10vh;
             font-weight: 900;
-            padding-left: 2vw;
-            padding-right: 2vw;
+            padding: 2vw;
+            padding: 2vw;
             margin-bottom: 2vw;
             text-transform: uppercase;
             }
