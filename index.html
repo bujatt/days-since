@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Basic HTML5 Template</title>
+  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <meta name="author" content="SitePoint">
+
+  <meta property="og:title" content="Hungarian state media">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+  <meta property="og:description" content="A simple HTML5 Template for new projects.">
+  <meta property="og:image" content="image.png">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type = "text/javascript" >
+      // JavaScript program to illustrate
+      // calculation of no. of days between two date
+
+      // To set two dates to two variables
+      var date1 = new Date("01/21/2020");
+      var date2 = new Date();
+
+  // To calculate the time difference of two dates
+  var Difference_In_Time = date2.getTime() - date1.getTime();
+
+  // To calculate the no. of days between two dates
+  var Difference_In_Days = Math.floor(Difference_In_Time / (1000 * 3600 * 24));
+
+  //To display the final no. of days (result)
+  //document.write("Total number of days between dates  <br>"+ date1 + " and "+ date2 + " is: <br> "+ Difference_In_Days);
+
+  </script>
+
+</head>
+
+<body>
+  <!-- your content here... -->
+  <div class="container">
+  <div class="main">
+    <div class="days">
+      <script>document.write(Difference_In_Days);</script> napja
+
+    </div>
+    <div class="longtext">
+  nem szerepelt Karácsony Gergely élő adásban a magyar közmédiában.
+    </div>
+  </div>
+
+  </div>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
